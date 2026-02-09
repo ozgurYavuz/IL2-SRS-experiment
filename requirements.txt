@@ -1,0 +1,11 @@
+#below commands: 1-create python virtual environment, 2-activate venv, 3-install required libraries
+#python -m venv ./SRpy_venv
+#source ./SRpy_venv/bin/activate
+#pip install -r ./requirements.txt
+
+#Required libraries
+toml #verion 0.10.2
+git+https://github.com/TeamPyOgg/PyOgg  #version 0.7
+sounddevice #version 0.5.3
+numpy #version 2.3.5
+evdev #version 1.9.2
